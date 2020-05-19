@@ -10,7 +10,6 @@ feature 'Viewing bookmarks' do
 
   feature 'viewing bookmarks' do
     scenario 'bookmarks are visible' do
-
       # Add the test data
 
       Bookmark.create(url: "http://www.makersacademy.com")
